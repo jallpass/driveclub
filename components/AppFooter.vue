@@ -1,6 +1,6 @@
 <template>
     <!-- Footer -->
-    <div style="background-color: #22282D; border-top: 1px solid #ffffff;" class="container text-center text-md-start">
+    <div class="container text-center text-md-start footer-block">
         <!-- Grid row -->
         <div class="row mx-5 mt-5">
             <!-- Grid column -->
@@ -73,5 +73,10 @@
             color: #FFFFFF;
             opacity: 0.48;
         }
+    }
+
+    .footer-block {
+        background-color: #22282D;
+        border-top: 1px solid #ffffff;
     }
 </style>

@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="hero-image" style="border-bottom: 1px solid #ffffff;">
+        <div class="hero-image">
             <div class="hero-text">
-                <h1 style="font-size:50px">{{ heroTitle }}</h1>
+                <h1>{{ heroTitle }}</h1>
                 <h3>24/7 SUPPORT</h3>
             </div>
         </div>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <!-- new div -->
-        <div style="background-color: #171B1E;" class="split-wrap">
+        <div class="split-wrap">
             <div class="cover">
                 <div class="text-block">
                     <div class="icon-box phone-icon-box">
@@ -55,7 +55,7 @@
             </div>
         </div>
         <!-- new div -->
-        <div style="background-color: #171B1E;" class="split-wrap split-wrap-2">
+        <div class="split-wrap split-wrap-2">
         </div>
     </div>
 </template>
@@ -217,6 +217,11 @@
             background-size: cover;
             position: relative;
             margin-top: -84px;
+            border-bottom: 1px solid #ffffff;
+        }
+
+        .split-wrap {
+            background-color: #171B1E;
         }
 
         .split-wrap-2 {
@@ -229,6 +234,10 @@
             top: 200px;
             left: 100px;
             color: white;
+        }
+
+        .hero-text h1 {
+            font-size:50px
         }
     }
 
@@ -259,6 +268,7 @@
             background-size: cover;
             position: relative;
             margin-top: -84px;
+            border-bottom: 1px solid #ffffff;
 
         }
 
@@ -266,11 +276,20 @@
             display: none;
         }
 
+
+        .split-wrap {
+            background-color: #171B1E;
+        }
+
         .hero-text {
             position: absolute;
             top: 200px;
             left: 100px;
             color: white;
+        }
+
+        .hero-text h1 {
+            font-size:50px
         }
 
         .floating-contact-box {
@@ -297,6 +316,11 @@
             color: #FF0050 !important;
         }
 
+
+        .split-wrap {
+            background-color: #171B1E;
+        }
+
         .split-wrap-2 {
             display: none;
         }
@@ -317,7 +341,7 @@
             background-size: cover;
             position: relative;
             margin-top: -84px;
-
+            border-bottom: 1px solid #ffffff;
         }
 
         .hero-text {
@@ -326,6 +350,10 @@
             margin-left: 10%;
             margin-right: 10%;
             color: white;
+        }
+
+        .hero-text h1 {
+            font-size:50px
         }
 
         .cover {

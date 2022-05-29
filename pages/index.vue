@@ -1,15 +1,15 @@
 <template>
     <div>
-        <div class="hero-image" style="border-bottom: 1px solid #ffffff;">
+        <div class="hero-image border-bottom">
             <div class="hero-text">
-                <h1 style="font-size:50px">{{ heroTitle }}</h1>
+                <h1>{{ heroTitle }}</h1>
                 <h3>COME STANDARD</h3>
                 <p>Discover the benefits of DRIVECLUB Trade-in and get a free vehicle evaluation.</p>
             </div>
         </div>
         <div class="page-content desktop-view">
             <!-- new div -->
-            <div style="background-color: #171B1E;" class="split-wrap">
+            <div class="split-wrap">
                 <div class="split first">
                     <div class="cover">
                         <div class="text-box">
@@ -19,15 +19,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="split second" style="border-left: 1px solid #ffffff;">
+                <div class="split second border-left">
                     <div class="cover">
                         <img src="/assets/car-1.jpg">
                     </div>
                 </div>
             </div>
             <!-- new div -->
-            <div style="background-color: #171B1E;" class="split-wrap">
-                <div class="split second" style="border-right: 1px solid #ffffff;border-top: 1px solid #ffffff;">
+            <div class="split-wrap">
+                <div class="split second border-right border-top">
                     <div class="cover">
                         <img src="/assets/car-2.jpg">
                     </div>
@@ -45,8 +45,8 @@
         </div>
         <div class="page-content mobile-view">
             <!-- new div -->
-            <div style="background-color: #171B1E;" class="split-wrap">
-                <div class="split second" style=" border-bottom: 1px solid #ffffff;">
+            <div class="split-wrap">
+                <div class="split second border-bottom">
                     <div class="cover">
                         <img src="/assets/car-1.jpg">
                     </div>
@@ -62,8 +62,8 @@
                 </div>
             </div>
             <!-- new div -->
-            <div style="background-color: #171B1E;" class="split-wrap">
-                <div class="split second" style="border-top: 1px solid #ffffff; border-bottom: 1px solid #ffffff;">
+            <div class="split-wrap">
+                <div class="split second border-top border-bottom">
                     <div class="cover">
                         <img src="/assets/car-2.jpg">
                     </div>
@@ -86,7 +86,7 @@
             <a href="javascript:void(0)" class="closebtn" onclick="document.getElementById('ferrari-modal').style.width = '0%';">&times;</a>
             <!-- Overlay content -->
             <div class="overlay-content">
-                <div style="background-color: #171B1E;" class="split-wrap">
+                <div class="split-wrap">
                     <div class="split second">
                         <div class="cover">
                             <img src="/assets/car-large.jpg">
@@ -132,6 +132,23 @@
 
 </script>
 <style>
+
+.border-left {
+    border-left: 1px solid #ffffff;
+}
+
+.border-top {
+    border-top: 1px solid #ffffff;
+}
+
+.border-right {
+    border-right: 1px solid #ffffff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ffffff;
+}
+
 .overlay-content .text-box {
     width:80%;
     display: block;
@@ -260,12 +277,18 @@
             color: white;
         }
 
+        .hero-text h1 {
+            font-size:50px
+        }
+
         .text-box {
             margin: auto;
             width: 300px;
         }
 
-        .split-wrap {}
+        .split-wrap {
+            background-color: #171B1E;
+        }
 
         .split.first {
             margin-top: 15%;
@@ -347,12 +370,18 @@
             color: white;
         }
 
+        .hero-text h1 {
+            font-size:50px
+        }
+
         .text-box {
             margin: auto;
             width: 300px;
         }
 
-        .split-wrap {}
+        .split-wrap {
+            background-color: #171B1E;
+        }
 
         .split.first {
             margin-top: 10%;
